@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="left">
+    <form>
+    <label>
+<div class="radio"></div>
+<div class="radio"></div>
+<div class="radio"></div>
+</label>
+
+<div class="row">
+
+<div class="row2"></div>
+
+<div class="row3"></div>
+
+<div class="row4"></div>
+
+<div class="row5"></div>
+
+<div class="row5"></div>
+
+<div class="row5"></div>
+
+<div class="row5"></div>
+</div>
+
+</form>
+<div class="colo">
+    <div class="red"></div>
+</div>
+
+<div class="rightcolo">
+    <div class="green"></div>
+</div>
+</div>
+
+
+<style>
+    body{
+        background:rgb(10, 10, 10);
+        margin: 0;
+     box-sizing: border-box;
+
+    }
+    form{
+     margin-top: 200px;
+     background: rgba(255, 255, 255, 0.1);
+     width: 350px;
+     height: 370px;
+     border-radius: 6px;
+     z-index: 1;
+     box-shadow: 0px 5px 11px #000;
+     backdrop-filter: blur(5px);
+     display: flex;
+     padding: 8px 10px;
+
+    }
+    .left{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+    }
+.colo , .rightcolo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.rightcolo{
+    margin-left: 350px;
+    margin-top: 370px;
+}
+.colo{
+     margin-left: -290px;
+     margin-top: 170px;
+
+
+}
+.red{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background:linear-gradient(rgb(188, 23, 23) , rgb(213, 73, 71));
+    box-shadow: 0px 5px 10px #000;
+
+}
+.green{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background:linear-gradient(rgb(93, 190, 93) , rgb(35, 200, 35));
+    box-shadow: 0px 5px 10px #000;
+}
+.radio{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+
+}
+.radio:first-child{
+    background-color:#333333 ;
+}
+.radio:nth-child(2){
+    background-color:#333333;
+    margin-left: 8px;
+}
+.radio:nth-child(3){
+    background-color:#333333;
+    margin-left: 8px;
+}
+label{
+    display: flex;
+    height: 10px;
+}
+.row{
+    width: 300px;
+    height: 5px;
+   margin-top: 60px;
+ margin-left: -20px;
+ height: 235px;
+}
+.row2{
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.row3{
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.row4{
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.row5{
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+
+</style>
+</body>
+</html>
